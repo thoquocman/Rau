@@ -1,0 +1,18 @@
+{
+  "name": "rau",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tho Quoc Man",
+    "Hao Nguyen"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thoquocman/Rau",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
