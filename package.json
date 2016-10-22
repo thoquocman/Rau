@@ -1,0 +1,19 @@
+{
+  "name": "rau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoquocman/Rau.git"
+  },
+  "author": "Tho Quoc Man, Hao Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoquocman/Rau/issues"
+  },
+  "homepage": "https://github.com/thoquocman/Rau#readme"
+}
