@@ -1,10 +1,57 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../static/bowers/bootstrap/dist/css/bootstrap.min.css"/>
-        <script src="../static/bowers/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </head>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/theme.css">
+    <link rel="stylesheet" href="../static/bowers/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="../static/bowers/bootstrap/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+  </head>
 
-    <body>
-      <button class="btn btn-default" type="submit" value="Submit">Submit</button>
-    </body>
+  <body>
+    <input type="search" id="mySearch" placeholder="What can we help you find today?" size="35">
+    <img src="../images/inward_black_search.png" width="50" height="50">
+    <!--Horizontal Navigation Bar-->
+    <div class="horNav">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+
+        <li id="dropdown">
+          <a href="#vegetables">Vegetables</a>
+          <div id="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </li>
+
+        <li id="dropdown">
+          <a href="#fruit">Fruit</a>
+          <div id="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </li>
+
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <!--Vertical Navigation Bar-->
+    <div class="verNav">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#capcity">Capacity</a></li>
+        <li><a href="#price">Price</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <p>Posted by: Rau Team</p>
+      <p>Contact information: <a href="mailto:rau@example.com">rauteam@example.com</a>.</p>
+    </footer>
+  </body>
 </html>

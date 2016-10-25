@@ -1,0 +1,84 @@
+/*Background*/
+html, body{
+    background: url(../../images/organic.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/*Horizontal Navigation Bar*/
+.horNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.horNav li {
+    float: left;
+}
+
+.horNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horNav li a:hover {
+    background-color: #111;
+}
+
+/*Horizontal Navigation Bar-dropdown list*/
+.horNav #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.horNav #dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.horNav #dropdown-content a:hover {background-color: #f1f1f1}
+
+.horNav #dropdown:hover #dropdown-content {
+    display: block;
+}
+
+/*Vertical Navigation Bar*/
+.verNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.verNav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.verNav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.verNav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/*Footer*/
+footer {
+    color: white;
+}
